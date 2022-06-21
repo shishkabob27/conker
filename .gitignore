@@ -17,6 +17,7 @@ src_debug/
 src_eu/
 text/
 textures/
+*/.vscode
 
 # files
 
