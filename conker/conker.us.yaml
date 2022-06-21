@@ -471,7 +471,7 @@ segments:
     - [0xede60, asm]
     - [0xee710, asm]
     - [0xeeb10, asm]
-    - [0xeee70, asm]
+    - [0xeee70, c, game_EEE70]
     - [0xEF410, c, game_EF410]
     - [0xF15d0, asm]
     - [0xF20a0, c, game/done/game_F20A0]
