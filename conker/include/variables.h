@@ -418,6 +418,7 @@ extern u8  D_80088B40;
 extern u8  D_80088B60;
 extern u8  D_80088B90;
 extern u8  D_80088BB0;
+extern s32 D_80089670;
 extern s32 D_800894B0;
 extern s32 D_80089520;
 extern s32 D_80089524[]; // struct arrays?

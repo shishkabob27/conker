@@ -613,7 +613,7 @@ segments:
     - [0x15b960, asm]
     - [0x15baa0, asm]
     - [0x15bd90, asm]
-    - [0x15d6e0, asm]
+    - [0x15d6e0, c, game_15D6E0]
     - [0x15d730, asm]
     - [0x15f680, asm]
     - [0x161520, c, game_161520]
