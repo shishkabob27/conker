@@ -643,7 +643,7 @@ segments:
     - [0x193430, asm]
     - [0x193e50, asm]
     - [0x1944C0, c, game_1944C0]
-    - [0x196db0, asm]
+    - [0x196db0, c, game_196DB0]
     - [0x197120, asm]
     - [0x197c20, asm]
     - [0x19a8b0, asm]
