@@ -737,7 +737,7 @@ segments:
     - [0x20a990, asm]
     - [0x20ae20, asm]
     - [0x215960, asm]
-    - [0x21c4f0, asm]
+    - [0x21c4f0, c, game_21C4F0]
     - [0x21c540, asm]
     - [0x21C900, asm, libultra/io/pfsinit2] # dupe of libultra/io/pfsinit
     - [0x21CAC0, asm]
