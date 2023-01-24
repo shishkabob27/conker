@@ -5,7 +5,7 @@
 
 
 
-A WIP decompilation of Conker's Bad Fur Day. Started by most. Continued by shishkabob.
+A WIP decompilation of Conker's Bad Fur Day. Started by mkst. Continued by shishkabob.
 
 Note: To use this repository, you must already have a copy of the game.
 
