@@ -23,7 +23,7 @@ See the [Quickstart](https://github.com/mkst/conker/wiki/Quickstart) for more in
 **Clone repository**
 
 ```sh
-git clone https://github.com/mkst/conker.git --recursive
+git clone https://github.com/shishkabob27/conker.git --recursive
 cd conker
 ```
 
