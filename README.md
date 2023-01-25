@@ -146,6 +146,6 @@ This repo makes use of the following open-source tools without which, there woul
 
 # Contributing
 
-The [wiki](https://github.com/mkst/conker/wiki) will eventually contain discoveries as they are made.
+The [wiki](https://github.com/shishkabob27/conker/wiki) will eventually contain discoveries as they are made.
 
 In the meantime, if you wish to contribute in any way, get stuck in and raise a PR.
