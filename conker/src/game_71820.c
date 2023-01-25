@@ -12,7 +12,10 @@ void func_15044370(void) {
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_71820/func_1504452C.s")
 
-#pragma GLOBAL_ASM("asm/nonmatchings/game_71820/func_15044658.s")
+//#pragma GLOBAL_ASM("asm/nonmatchings/game_71820/func_15044658.s")
+void func_15044658(void) {
+
+}
 
 #pragma GLOBAL_ASM("asm/nonmatchings/game_71820/func_15044660.s")
 
