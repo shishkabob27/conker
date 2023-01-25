@@ -363,7 +363,7 @@ segments:
     - [0x70200, c, game_70200]
     - [0x71240, c, game_71240]
     - [0x71770, c, game_71770]
-    - [0x71820, asm]
+    - [0x71820, c, game_71820]
     - [0x750b0, c, libultra/gu/cosf]
     - [0x75210, c, libultra/gu/sinf]
     - [0x753B0, c, libultra/gu/guPerspectiveF]

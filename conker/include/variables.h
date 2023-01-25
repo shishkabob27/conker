@@ -965,6 +965,7 @@ extern u32 D_800CBD78;
 extern s16 D_800CBD7C;
 
 extern f32 D_800CBD80;
+extern s32 D_800CBD9C;
 
 extern f32 D_800CC210;
 extern f32 D_800CC214;
