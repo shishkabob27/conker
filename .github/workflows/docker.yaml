@@ -26,7 +26,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: markstreet/conker:latest
+          tags: shishkabob27/conker:latest
       - name: Build and push to Github registry
         uses: docker/build-push-action@v2
         with:
