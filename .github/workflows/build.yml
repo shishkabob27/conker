@@ -60,15 +60,3 @@ jobs:
 
     - name: Rename progress.csv
       run: mv conker/progress.csv "${{ steps.vars.outputs.progress_filename }}"
-
-    - name: Push progress.csv to conker-website repo
-      if: ${{ github.event_name == 'push' }}
-      uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
-      env:
-        API_TOKEN_GITHUB: ${{ secrets.WEBSITE_REPO_ACCESS }}
-      with:
-        source_file: "${{ steps.vars.outputs.progress_filename }}"
-        destination_repo: 'mkst/conker-website'
-        destination_folder: 'progress/data'
-        user_email: 'streetster@gmail.com'
-        user_name: 'mkst'
