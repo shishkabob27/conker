@@ -17,7 +17,7 @@ Place the **US** Conker's Bad Fur Day ROM in the root of this repository, name i
 The assumption is that you will be using [Docker](https://www.docker.com/products/docker-desktop) for the building process.
 If this is not the case, see the [Dockerfile](Dockerfile) for the prerequisites; the steps below work perfectly well in **Ubuntu 20.04** running via WSL on Windows.
 
-See the [Quickstart](https://github.com/mkst/conker/wiki/Quickstart) for more information.
+See the [Quickstart](https://github.com/shishkabob27/conker/wiki/Quickstart) for more information.
 
 **Clone repository**
 
