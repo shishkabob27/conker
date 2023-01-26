@@ -634,7 +634,7 @@ segments:
     - [0x188440, asm]
     - [0x188f90, asm]
     - [0x1897A0, c, game_1897A0]
-    - [0x18a8f0, asm]
+    - [0x18a8f0, c, game_18A8F0]
     - [0x18d250, asm]
     - [0x18D770, c, game_18D770]
     - [0x191c30, asm]
