@@ -1,6 +1,6 @@
 # Conker's Bad Fur Day (code) decompilation
 
-**TL;DR** - Read the [wiki](https://github.com/mkst/conker/wiki) for the most up-to-date information.
+**TL;DR** - Read the [wiki](https://github.com/shishkabob27/conker/wiki) for the most up-to-date information.
 
 There are three code sections within the ROM:
  - initialisation code + libultra; this is referred to as `init` and is translated to address `0x10000000`
