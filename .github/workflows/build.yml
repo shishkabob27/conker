@@ -56,9 +56,3 @@ jobs:
       uses: docker://docker.io/shishkabob27/conker:latest
       with:
         args: sh -c "cd conker && make progress"
-
-    - name: Create progress_filename variable
-      id: vars
-      shell: bash
-      run: |
-        echo "::set-output name=progress_filename::$(echo ${GITHUB_SHA}.$(git show -s --format=%at ${GITHUB_SHA}).csv)"
