@@ -4,7 +4,7 @@ on:
     branches: [ master ]
 jobs:
   push_to_dockerhub:
-    name: Publish Docker build image to Docker Hub + Github Registry
+    name: Publish Docker build image to Docker Hub
     runs-on: ubuntu-latest
     permissions:
       contents: read
