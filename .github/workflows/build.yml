@@ -56,3 +56,15 @@ jobs:
       uses: docker://docker.io/shishkabob27/conker:latest
       with:
         args: sh -c "cd conker && make progress"
+        
+    - name: Push progress.csv
+      if: ${{ github.event_name == 'push' }}
+      uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
+      env:
+        API_TOKEN_GITHUB: ${{ secrets.PRIVATE_REPO_ACCESS }}
+      with:
+        source_file: "${{ steps.vars.outputs.progress_filename }}"
+        destination_repo: 'shishkabob27/shishkabob27.github.io'
+        destination_folder: 'files/conker'
+        user_email: 'shishkabob27@outlook.com'
+        user_name: 'shishkabob27'
