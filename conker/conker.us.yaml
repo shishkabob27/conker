@@ -689,7 +689,7 @@ segments:
     - [0x1c0b10, asm]
     - [0x1c1150, asm]
     - [0x1c2c60, c, game_1C2C60]
-    - [0x1ca420, asm]
+    - [0x1ca420, c, game_1CA420]
     - [0x1cbe20, asm]
     - [0x1cc420, c, game/done/game_1CC420]
     - [0x1cc440, asm]
