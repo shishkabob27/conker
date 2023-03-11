@@ -66,5 +66,5 @@ jobs:
         source_file: "progress.csv"
         destination_repo: 'shishkabob27/shishkabob27.github.io'
         destination_folder: 'files/conker'
-        user_email: 'shishkabob27@outlook.com'
+        user_email: '64564902+shishkabob27@users.noreply.github.com'
         user_name: 'shishkabob27'
