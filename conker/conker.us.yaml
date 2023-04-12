@@ -512,7 +512,7 @@ segments:
     - [0x1028f0, asm]
     - [0x1045d0, asm]
     - [0x1048d0, asm]
-    - [0x105760, asm]
+    - [0x105760, c, game_105760]
     - [0x105fc0, asm]
     - [0x108320, asm]
     - [0x108e90, asm]
