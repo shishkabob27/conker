@@ -706,7 +706,7 @@ segments:
     - [0x1e2180, asm]
     - [0x1e26f0, asm]
     - [0x1e3050, asm]
-    - [0x1e30a0, asm]
+    - [0x1e30a0, c, game_1E30A0]
     - [0x1e34c0, asm]
     - [0x1e37d0, asm]
     - [0x1e58b0, asm]

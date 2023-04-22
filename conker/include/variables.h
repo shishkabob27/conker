@@ -749,6 +749,11 @@ extern f32 D_800A6B08;
 extern f32 D_800A6B0C;
 extern f32 D_800A6B10;
 
+extern f32 D_800AA434;
+extern f32 D_800AA438;
+extern f32 D_800AA43C;
+extern f32 D_800AA440;
+
 extern u16 D_800AB140[];
 extern s32 D_800AB168[1];
 // game_2062D0.c
