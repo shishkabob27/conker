@@ -57,13 +57,13 @@ jobs:
       with:
         args: sh -c "cd conker && make progress"
         
-    - name: Push progress.csv to conker-website repo
+    - name: Push progress.csv to shishkabob27.github.io repo
       if: ${{ github.event_name == 'push' }}
       uses: dmnemec/copy_file_to_another_repo_action@v1.0.4
       env:
         API_TOKEN_GITHUB: ${{ secrets.WEBSITE_REPO_ACCESS }}
       with:
-        source_file: "${{ steps.vars.outputs.progress_filename }}"
+        source_file: "progress.csv"
         destination_repo: 'shishkabob27/shishkabob27.github.io'
         destination_folder: 'files/conker'
         user_email: '64564902+shishkabob27@users.noreply.github.com'
