@@ -570,7 +570,7 @@ segments:
     - [0x12dab0, asm]
     - [0x12fdd0, asm]
     - [0x1308e0, asm]
-    - [0x130b40, asm]
+    - [0x130b40, c, game_130B40]
     - [0x130CB0, c, game_130CB0]
     - [0x1312f0, asm]
     - [0x131620, asm]
