@@ -461,7 +461,7 @@ segments:
     - [0xe7380, asm]
     - [0xe7970, asm]
     - [0xe8090, asm]
-    - [0xe8bb0, asm]
+    - [0xe8bb0, c, game/done/game_E8BB0]
     - [0xe8c10, asm]
     - [0xeb020, asm]
     - [0xeb340, asm]
