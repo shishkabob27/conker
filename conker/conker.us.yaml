@@ -575,7 +575,7 @@ segments:
     - [0x1312f0, asm]
     - [0x131620, asm]
     - [0x1319d0, asm]
-    - [0x131a90, asm]
+    - [0x131a90, c, game_131A90]
     - [0x131F30, c, game_131F30]
     - [0x133190, asm]
     - [0x135490, asm]
