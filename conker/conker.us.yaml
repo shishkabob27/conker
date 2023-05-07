@@ -395,7 +395,7 @@ segments:
     - [0xAB760, asm]
     - [0xAC030, asm]
     - [0xAD6B0, asm]
-    - [0xAD9B0, asm]
+    - [0xAD9B0, c, game_AD9B0]
     - [0xAE1D0, asm]
     - [0xAEB40, asm]
     - [0xb21b0, asm]
