@@ -594,7 +594,7 @@ segments:
     - [0x14ce30, asm]
     - [0x14d0d0, c, game/done/game_14D0D0]
     - [0x14d110, asm]
-    - [0x14ee80, asm]
+    - [0x14ee80, c, game_14EE80]
     - [0x14f130, asm]
     - [0x14f580, asm]
     - [0x14f8f0, asm]

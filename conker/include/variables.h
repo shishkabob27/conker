@@ -691,7 +691,9 @@ extern f32 D_800A2368;
 
 // extern struct201 D_800A2CD0[];
 extern u8  D_800A2CD0[][3];
-
+extern f32 D_800A3420;
+extern f32 D_800A3424;
+extern f32 D_800A3430;
 extern u8 D_800A3FB4[]; // "power"
 extern u8 D_800A3FBC[]; // "../Effects/Blood/blood.c"
 extern s32 D_800A4AA0; //?
