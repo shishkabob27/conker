@@ -407,7 +407,7 @@ segments:
     - [0xC4dc0, asm]
     - [0xC8950, c, game_C8950]
     - [0xC98f0, asm]
-    - [0xC9ec0, asm]
+    - [0xC9ec0, c, game_C9EC0]
     - [0xCB1C0, c, game_CB1C0]
     - [0xCB3D0, asm]
     - [0xCbaf0, asm]
