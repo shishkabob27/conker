@@ -63,6 +63,6 @@ jobs:
       with:
         url: 'https://retroretreat.net/api/v1/conker/update_progress'
         method: 'POST'
-        password: ${{ secrets.PRIVATE_REPO_ACCESS }}
+        data: ${{ secrets.PRIVATE_REPO_ACCESS }}
         file: 'conker/progress.csv'
       
