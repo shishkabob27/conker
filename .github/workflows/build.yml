@@ -52,17 +52,17 @@ jobs:
       with:
         args: make --jobs
 
-    - name: Create progress.csv
-      uses: docker://docker.io/shishkabob27/conker:latest
-      with:
-        args: sh -c "cd conker && make progress"
+    #- name: Create progress.csv
+    #  uses: docker://docker.io/shishkabob27/conker:latest
+    #  with:
+    #    args: sh -c "cd conker && make progress"
         
-    - name: HTTP Request Action
-      id: http_request
-      uses: fjogeleit/http-request-action@v1.14.1
-      with:
-        url: 'https://retroretreat.net/api/v1/conker/update_progress'
-        method: 'POST'
-        data: '{"key": "${{ secrets.PRIVATE_REPO_ACCESS }}"}'
-        files: '{"file": "conker/progress.csv"}'
+    #- name: HTTP Request Action
+    #  id: http_request
+    #  uses: fjogeleit/http-request-action@v1.14.1
+    #  with:
+    #    url: 'https://retroretreat.net/api/v1/conker/update_progress'
+    #    method: 'POST'
+    #    data: '{"key": "${{ secrets.PRIVATE_REPO_ACCESS }}"}'
+    #    files: '{"file": "conker/progress.csv"}'
       
