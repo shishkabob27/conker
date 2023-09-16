@@ -1,7 +1,7 @@
 # Conker's Bad Fur Day Decompilation
 
 ![build](https://github.com/shishkabob27/conker/workflows/build/badge.svg)
-
+![Code progress](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fretroretreat.net%2Fapi%2Fv1%2Fconker%2Fprogress%2Fjson&query=progress&label=Code%20progress)
 
 
 A WIP decompilation of Conker's Bad Fur Day. Started by mkst. Continued by shishkabob.
